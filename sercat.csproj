@@ -10,6 +10,18 @@
     <LangVersion>latest</LangVersion>
     <Version>1.0.0</Version>
     <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+
+    <!-- Framework-dependent: run on .NET 8, but roll forward to a newer major (9/10/...)
+         if that's the only runtime present, so users aren't forced to install 8 specifically. -->
+    <RollForward>LatestMajor</RollForward>
+
+    <Description>netcat for serial ports — a command-line serial terminal that sends what you type and prints what's received.</Description>
+    <Authors>Spectrum Integrators</Authors>
+    <Company>Spectrum Integrators</Company>
+    <Copyright>Copyright (C) 2026 Spectrum Integrators</Copyright>
+    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/jonathan-spectrumintegrators/sercat</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/jonathan-spectrumintegrators/sercat</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
