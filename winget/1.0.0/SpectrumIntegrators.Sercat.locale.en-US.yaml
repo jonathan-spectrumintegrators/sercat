@@ -6,7 +6,7 @@ Publisher: Spectrum Integrators
 PublisherUrl: https://github.com/jonathan-spectrumintegrators/sercat
 PackageName: sercat
 PackageUrl: https://github.com/jonathan-spectrumintegrators/sercat
-License: GPL-3.0-or-later
+License: AGPL-3.0-or-later
 LicenseUrl: https://github.com/jonathan-spectrumintegrators/sercat/blob/main/LICENSE
 ShortDescription: netcat for serial ports — a command-line serial terminal.
 Description: |-

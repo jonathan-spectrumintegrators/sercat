@@ -19,7 +19,7 @@
     <Authors>Spectrum Integrators</Authors>
     <Company>Spectrum Integrators</Company>
     <Copyright>Copyright (C) 2026 Spectrum Integrators</Copyright>
-    <PackageLicenseExpression>GPL-3.0-or-later</PackageLicenseExpression>
+    <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/jonathan-spectrumintegrators/sercat</RepositoryUrl>
     <PackageProjectUrl>https://github.com/jonathan-spectrumintegrators/sercat</PackageProjectUrl>
   </PropertyGroup>
