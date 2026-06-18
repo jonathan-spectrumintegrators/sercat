@@ -36,6 +36,11 @@ The manifests live in `winget/<version>/`:
 - `SpectrumIntegrators.Sercat.installer.yaml` (installer — URL + SHA256 + .NET dependency)
 - `SpectrumIntegrators.Sercat.locale.en-US.yaml` (metadata)
 
+Keep `ArchiveBinariesDependOnPath: true` in the installer manifest. sercat.exe is a
+framework-dependent .NET apphost that loads sercat.dll from its own folder; without this
+flag winget creates a Links symlink and the alias fails with "The application to execute
+does not exist: ...\Links\sercat.dll".
+
 If you rebuilt the zip, update `InstallerSha256` in the installer manifest to match. Validate:
 
 ```powershell
